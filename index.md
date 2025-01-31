@@ -7,4 +7,4 @@ layout: default
 Hello
 
 ## Subtitle
-[Link to another page](./_posts/initial_post.md).
+[Link to another page](./_posts/initial_post.html).
