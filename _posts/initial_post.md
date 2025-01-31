@@ -17,4 +17,3 @@ code block?
 
 ![photo?](https://avatars.githubusercontent.com/u/64538595?v=4)
 
-[Link to another page](./_posts/initial_post.html).

@@ -1,5 +1,10 @@
-remote_theme: pages-themes/minimal@v0.2.0
+title: "ML"
+author: "Matto Leeuwis"
+description: "Test website"
+baseurl: "" 
+url: "https://mleeuwis.github.io"
+theme: minima
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
-
-gem "github-pages", group: :jekyll_plugins
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
