@@ -4,13 +4,16 @@ title: News
 permalink: /news/
 ---
 
-
-{% assign items = site.news | sort: 'date' | reverse %}
-<ul>
-{% for item in items %}
-<li>
-<span>{{ item.date | date: site.minima.date_format }}</span> —
-<a href="{{ item.url | relative_url }}">{{ item.title }}</a>
-</li>
+{% assign items = site.news | sort: "date" | reverse %}
+<ul class="news-list">
+{% for n in items %}
+  <li>
+    <strong>{{ n.date | date: "%Y-%m-%d" }}</strong> ·
+    {% if n.link %}
+      <a href="{{ n.link }}" target="_blank">{{ n.title }}</a>
+    {% else %}
+      {{ n.title }}
+    {% endif %}
+  </li>
 {% endfor %}
 </ul>

@@ -3,6 +3,8 @@ title: Home
 layout: home
 ---
 
+I study human movement through the lens of robotics, biomechanics, and sensorimotor neuroscience. My work explores how the nervous system interacts with the body and environment to generate skilled, adaptable behavior. Using tools such as a robotic balance simulator, I investigate how humans learn altered control dynamics, ranging from small perturbations to the complete reversal of postural control. In parallel, I use musculoskeletal models to simulate and measure the energetic cost of human posture and gait, aiming to determine whether simple models accurately describe human movement and physiology. In other applied work, I developed a dynamic model of a wheelchair that could be pushed from the side for improved social interaction. By examining motor control from a dynamic systems perspective, I aim to uncover fundamental principles in biological or engineered systems that enable us to move with intelligence and purpose.
+
 ---
 
 ## News
