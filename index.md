@@ -16,8 +16,8 @@ layout: home
 - **{{ item.date | date: "%b %-d, %Y" }}** — [{{ item.title }}]({{ item.url | relative_url }})
   {% if item.summary %}
   <br>{{ item.summary }}
-  {% else %}
-  <br>{{ item.excerpt | strip_html | truncate: 160 }}
+  <!-- {% else %}
+  <br>{{ item.excerpt | strip_html | truncate: 160 }} -->
   {% endif %}
 {% endfor %}
 <p><a href="{{ "/news/" | relative_url }}">See all news →</a></p>
