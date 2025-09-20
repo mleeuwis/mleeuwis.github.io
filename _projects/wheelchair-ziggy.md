@@ -22,12 +22,6 @@ Traditional wheelchairs are pushed from behind the occupant, which hinders eye c
 
 ![Overview of wheelchair castor wheel](/assets/projects/wheelchair-castor-wheel-overview.svg)
 
-<iframe src="/assets/projects/wheelchair-castor-wheel-overview.svg" 
-        width="600" 
-        height="400" 
-        style="border:none;">
-</iframe>
-
 ## Thesis
 During my MSc thesis I developed a multibody dynamic model of the wheelchair to simulate how our modification of the castor wheel affected the system. We found that the cant (i.e., slant or tilt) of the swivel axis proportionally increased the lateral force it generates. This lateral force turns the wheelchair to one side. By letting the caregiver push using a lateral extending bar the wheelchair moves in a straight line. The thesis contains a simulation of a whole wheelchair to estimate the curvature of trajectories given the parameters of the wheelchair and castor wheel. The publication simplified the representation by validating the dynamics of the castor wheel itself.
 
@@ -37,4 +31,5 @@ MSc thesis: [The Dynamics of Non-upright Castor Wheels and Their Application for
 This project led to the formation of Ziggy Mobility by Lucy Bennett and Job Sesink. Ziggy Mobility aims to bring a wheelchair to the market.
 
 Ziggy Mobility: [Website](https://www.ziggy-mobility.nl/) | [LinkedIn](https://www.linkedin.com/company/ziggy-mobility/)
+
 Patent: [Wheelchair](https://worldwide.espacenet.com/patent/search/family/084331279/publication/NL2033392B1?q=pn%3DNL2033392B1)
