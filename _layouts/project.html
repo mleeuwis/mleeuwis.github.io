@@ -4,59 +4,63 @@ layout: default
 
 <article class="project h-entry" itemscope itemtype="https://schema.org/CreativeWork">
   <header class="project-header">
-    <h1 class="project-title p-name" itemprop="name">{{ page.title }}</h1>
 
-    {% if page.summary %}
-      <p class="project-summary" itemprop="abstract">{{ page.summary }}</p>
-    {% endif %}
-
-    <div class="project-meta-inline">
-      {% if page.date %}
-      <p><strong>Updated:</strong>
-        <time class="dt-updated" datetime="{{ page.date | date_to_xmlschema }}" itemprop="dateModified">
-          {{ page.date | date: site.minima.date_format | default: page.date }}
-        </time>
-      </p>
+    <div class="project-row{% unless page.image %} no-thumb{% endunless %}">
+      {% if page.image %}
+        <div class="project-thumb">
+          <img src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title }}" itemprop="image">
+          {% if page.image_caption %}<p class="caption">{{ page.image_caption }}</p>{% endif %}
+        </div>
       {% endif %}
 
-      {% if page.status %}
-      <p><strong>Status:</strong> <span itemprop="creativeWorkStatus">{{ page.status }}</span></p>
-      {% endif %}
+      <div class="project-text">
+        <h1 class="project-title p-name" itemprop="name">{{ page.title }}</h1>
 
-      {% if page.collaborators %}
-      <p><strong>Collaborators:</strong> {{ page.collaborators | join: ", " }}</p>
-      {% endif %}
+        {% if page.summary %}
+          <p class="project-summary" itemprop="abstract">{{ page.summary }}</p>
+        {% endif %}
 
-      {% if page.tags %}
-        {% assign tags_clean = page.tags | where_exp: "t", "t" %} {# remove blanks #}
-        {% if tags_clean.size > 0 %}
-        <p><strong>Tags:</strong>
-          {% for t in tags_clean %}
-            <a href="{{ '/projects/' | relative_url }}?tag={{ t | uri_escape }}">{{ t }}</a>{% unless forloop.last %}, {% endunless %}
-          {% endfor %}
+        {% if page.date %}
+        <p><strong>Updated:</strong>
+          <time class="dt-updated" datetime="{{ page.date | date_to_xmlschema }}" itemprop="dateModified">
+            {{ page.date | date: site.minima.date_format | default: page.date }}
+          </time>
         </p>
         {% endif %}
-      {% endif %}
 
-      {% if page.link %}
-      <p><strong>Link:</strong>
-        <a href="{{ page.link }}" rel="noopener" target="_blank">
-          {% if page.link contains 'doi.org' %}DOI{% else %}External{% endif %} →
-        </a>
-      </p>
-      {% endif %}
+        {% if page.status %}
+        <p><strong>Status:</strong> <span itemprop="creativeWorkStatus">{{ page.status }}</span></p>
+        {% endif %}
 
-      {% if page.code %}
-      <p><strong>Code:</strong> <a href="{{ page.code }}" rel="noopener" target="_blank">Repository →</a></p>
-      {% endif %}
+        {% if page.collaborators %}
+        <p><strong>Collaborators:</strong> {{ page.collaborators | join: ", " }}</p>
+        {% endif %}
+
+        {% if page.tags %}
+          {% assign tags_clean = page.tags | where_exp: "t", "t" %}
+          {% if tags_clean.size > 0 %}
+          <p><strong>Tags:</strong>
+            {% for t in tags_clean %}
+              <a href="{{ '/projects/' | relative_url }}?tag={{ t | uri_escape }}">{{ t }}</a>{% unless forloop.last %}, {% endunless %}
+            {% endfor %}
+          </p>
+          {% endif %}
+        {% endif %}
+
+        {% if page.link %}
+        <p><strong>Link:</strong>
+          <a href="{{ page.link }}" rel="noopener" target="_blank">
+            {% if page.link contains 'doi.org' %}DOI{% else %}External{% endif %} →
+          </a>
+        </p>
+        {% endif %}
+
+        {% if page.code %}
+        <p><strong>Code:</strong> <a href="{{ page.code }}" rel="noopener" target="_blank">Repository →</a></p>
+        {% endif %}
+      </div>
     </div>
 
-    {% if page.image %}
-      <figure class="project-hero">
-        <img src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title }}" itemprop="image">
-        {% if page.image_caption %}<figcaption>{{ page.image_caption }}</figcaption>{% endif %}
-      </figure>
-    {% endif %}
   </header>
 
   <section class="project-body e-content" itemprop="text">
