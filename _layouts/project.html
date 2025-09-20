@@ -21,31 +21,27 @@ layout: default
       {% endif %}
 
       <div class="project-text">
-        {% if page.date %}
-        <p><strong>Updated:</strong>
-          <time class="dt-updated" datetime="{{ page.date | date_to_xmlschema }}" itemprop="dateModified">
-            {{ page.date | date: site.minima.date_format | default: page.date }}
-          </time>
-        </p>
-        {% endif %}
-
         {% if page.status %}
         <p><strong>Status:</strong> <span itemprop="creativeWorkStatus">{{ page.status }}</span></p>
         {% endif %}
 
         {% if page.collaborators %}
-        <p><strong>Collaborators:</strong> {{ page.collaborators | join: ", " }}</p>
+        <p><strong>People:</strong> {{ page.collaborators | join: ", " }}</p>
         {% endif %}
 
         {% if page.tags %}
           {% assign tags_clean = page.tags | where_exp: "t", "t" %}
           {% if tags_clean.size > 0 %}
-          <p><strong>Tags:</strong>
-            {% for t in tags_clean %}
-              <a href="{{ '/projects/' | relative_url }}?tag={{ t | uri_escape }}">{{ t }}</a>{% unless forloop.last %}, {% endunless %}
-            {% endfor %}
-          </p>
+          <p><strong>Topics:</strong> {{ tags_clean | join: ", " }}</p>
           {% endif %}
+        {% endif %}
+
+        {% if page.date %}
+        <p><strong>Date:</strong>
+          <time class="dt-updated" datetime="{{ page.date | date_to_xmlschema }}" itemprop="dateModified">
+            {{ page.date | date: site.minima.date_format | default: page.date }}
+          </time>
+        </p>
         {% endif %}
 
         {% if page.link %}
