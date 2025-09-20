@@ -13,7 +13,7 @@ layout: default
     <dl class="project-meta">
       {% if page.date %}
       <div>
-        <dt>Updated</dt>
+        <dt>Updated:</dt>
         <dd><time class="dt-updated" datetime="{{ page.date | date_to_xmlschema }}" itemprop="dateModified">
           {{ page.date | date: site.minima.date_format | default: page.date }}
         </time></dd>
@@ -22,21 +22,21 @@ layout: default
 
       {% if page.status %}
       <div>
-        <dt>Status</dt>
+        <dt>Status:</dt>
         <dd itemprop="creativeWorkStatus">{{ page.status }}</dd>
       </div>
       {% endif %}
 
       {% if page.collaborators %}
         <div>
-            <dt>Collaborators</dt>
+            <dt>Collaborators:</dt>
             <dd>{{ page.collaborators | join: ", " }}</dd>
         </div>
         {% endif %}
 
       {% if page.tags %}
         <div>
-            <dt>Tags</dt>
+            <dt>Tags:</dt>
             <dd>
             {% for t in page.tags %}
                 <a href="{{ '/projects/' | relative_url }}?tag={{ t | uri_escape }}">{{ t }}</a>{% unless forloop.last %}, {% endunless %}
@@ -47,7 +47,7 @@ layout: default
 
       {% if page.link %}
       <div>
-        <dt>Link</dt>
+        <dt>Link:</dt>
         <dd>
           <a href="{{ page.link }}" rel="noopener" target="_blank">
             {% if page.link contains 'doi.org' %}DOI{% else %}External{% endif %} →

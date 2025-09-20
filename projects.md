@@ -9,14 +9,13 @@ permalink: /projects/
 {% for p in items %}
 ### [{{ p.title }}]({{ p.url | relative_url }})
 
-- **Updated:** {{ p.date | date: site.minima.date_format }}
-{% if p.status %}- **Status:** {{ p.status }}{% endif %}
 {% if p.collaborators %}- **Authors:** {{ p.collaborators | join: ", " }}{% endif %}
 {% if p.tags %}- **Tags:** {{ p.tags | array_to_sentence_string }}{% endif %}
+{% if p.status %}- **Status:** {{ p.status }}{% endif %}
 {% if p.link %}- **Link:** <a href="{{ p.link }}" target="_blank" rel="noopener">
-  {% if p.link contains 'doi.org' %}DOI{% else %}External{% endif %}</a>{% endif %}
+{% if p.link contains 'doi.org' %}DOI{% else %}External{% endif %}</a>{% endif %}
 
-{{ p.summary | default: p.excerpt | strip_html }}
+<!-- {{ p.summary | default: p.excerpt | strip_html }} -->
 
 ---
 {% endfor %}
