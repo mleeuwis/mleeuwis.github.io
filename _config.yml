@@ -19,11 +19,12 @@ plugins:
 
 # Navigation: list the pages that should appear in the header
 header_pages:
-  - news.md
   - projects.md
+  - publications.md
+  - news.md
   - blog.md
   - cv.md
-  - publications.md
+  
 
 # Collections for News and Projects
 collections:
