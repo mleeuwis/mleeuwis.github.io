@@ -3,14 +3,14 @@ layout: page
 title: "Conditioning"
 date: 2024-01-01
 summary: Different mechanisms of contextual inference govern continuous and conditioned postural responses.
-tags: \[standing, energy, posture, asymmetry, biomechanics]
+tags: standing, energy, posture, asymmetry, biomechanics
 status: "Published"
 collaborators:
-&nbsp; - "Matto Leeuwis (lead)"
-&nbsp; - "Yomna Asar"
-&nbsp; - "Yoshua White"
-&nbsp; - "Brandon Rasman"
-&nbsp; - "Patrick Forbes"
+   - "Matto Leeuwis"
+   - "Yomna Asar"
+   - "Yoshua White"
+   - "Brandon Rasman"
+   - "Patrick Forbes"
 \# image: /assets/projects/asymmetry-thumb.jpg   # (add later)
 \# code: https://github.com/USER/REPO            # (add if/when public)
 link: https://doi.org/10.1073/pnas.2404909121 
