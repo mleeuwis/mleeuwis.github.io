@@ -7,7 +7,7 @@ I study human movement through the lens of robotics, biomechanics, and sensorimo
 
 ---
 
-## News
+# News
 {% assign items = site.news | sort: "date" | reverse %}
 {% if items and items.size > 0 %}
 <ul class="news-list">
@@ -28,12 +28,12 @@ I study human movement through the lens of robotics, biomechanics, and sensorimo
 {% endif %}
 
 
-<!-- ---
+---
 
 ## Featured Projects
 {% assign projs = site.projects | sort: "date" | reverse %}
 {% if projs and projs.size > 0 %}
-{% for p in projs limit:3 %}
+{% for p in projs limit:2 %}
 ### [{{ p.title }}]({{ p.url | relative_url }})
 {{ p.summary | default: p.excerpt | strip_html | truncate: 180 }}
 
@@ -41,7 +41,7 @@ I study human movement through the lens of robotics, biomechanics, and sensorimo
 <p><a href="{{ "/projects/" | relative_url }}">All projects →</a></p>
 {% else %}
 _ No projects yet. Add files in `_projects/` with a `summary:` in the front matter. _
-{% endif %} -->
+{% endif %}
 
 ---
 

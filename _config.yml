@@ -7,11 +7,12 @@ theme: minima
 
 minima:
   date_format: "%Y-%m-%d"
-  
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-paginate
+  - jekyll-redirect-from
 
 # Navigation: list the pages that should appear in the header
 header_pages:
@@ -19,6 +20,7 @@ header_pages:
   - projects.md
   - blog.md
   - cv.md
+  - publications.md
 
 # Collections for News and Projects
 collections:
