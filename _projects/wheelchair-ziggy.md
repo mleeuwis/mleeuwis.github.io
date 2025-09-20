@@ -22,6 +22,12 @@ Traditional wheelchairs are pushed from behind the occupant, which hinders eye c
 
 ![Overview of wheelchair castor wheel](/assets/images/wheelchair-castor-wheel-overview.svg)
 
+<iframe src="/assets/projects/wheelchair-castor-overview.svg" 
+        width="600" 
+        height="400" 
+        style="border:none;">
+</iframe>
+
 ## Thesis
 During my MSc thesis I developed a multibody dynamic model of the wheelchair to simulate how our modification of the castor wheel affected the system. We found that the cant (i.e., slant or tilt) of the swivel axis proportionally increased the lateral force it generates. This lateral force turns the wheelchair to one side. By letting the caregiver push using a lateral extending bar the wheelchair moves in a straight line. The thesis contains a simulation of a whole wheelchair to estimate the curvature of trajectories given the parameters of the wheelchair and castor wheel. The publication simplified the representation by validating the dynamics of the castor wheel itself.
 
