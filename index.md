@@ -3,7 +3,8 @@ title: Home
 layout: home
 ---
 
-# Matto Leeuwis - Biorobotics & Biomechanics
+# Matto Leeuwis
+
 
 **Jump to:** [News]({{ "/news/" | relative_url }}) - [Projects]({{ "/projects/" | relative_url }}) - [Blog]({{ "/blog/" | relative_url }}) - [CV (PDF)]({{ "/assets/cv/M_CV.pdf" | relative_url }})
 

@@ -1,0 +1,86 @@
+---
+layout: default
+---
+
+<article class="project h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+  <header class="project-header">
+    <h1 class="project-title p-name" itemprop="name">{{ page.title }}</h1>
+
+    {% if page.summary %}
+      <p class="project-summary" itemprop="abstract">{{ page.summary }}</p>
+    {% endif %}
+
+    <dl class="project-meta">
+      {% if page.date %}
+      <div>
+        <dt>Updated</dt>
+        <dd><time class="dt-updated" datetime="{{ page.date | date_to_xmlschema }}" itemprop="dateModified">
+          {{ page.date | date: site.minima.date_format | default: page.date }}
+        </time></dd>
+      </div>
+      {% endif %}
+
+      {% if page.status %}
+      <div>
+        <dt>Status</dt>
+        <dd itemprop="creativeWorkStatus">{{ page.status }}</dd>
+      </div>
+      {% endif %}
+
+      {% if page.collaborators %}
+      <div>
+        <dt>Collaborators</dt>
+        <dd>
+          <ul class="project-collab">
+            {% for c in page.collaborators %}
+              <li>{{ c }}</li>
+            {% endfor %}
+          </ul>
+        </dd>
+      </div>
+      {% endif %}
+
+      {% if page.tags %}
+      <div>
+        <dt>Tags</dt>
+        <dd>
+          <ul class="project-tags">
+            {% for t in page.tags %}
+              <li><a href="{{ '/projects/' | relative_url }}?tag={{ t | uri_escape }}">{{ t }}</a></li>
+            {% endfor %}
+          </ul>
+        </dd>
+      </div>
+      {% endif %}
+
+      {% if page.link %}
+      <div>
+        <dt>Link</dt>
+        <dd>
+          <a href="{{ page.link }}" rel="noopener" target="_blank">
+            {% if page.link contains 'doi.org' %}DOI{% else %}External{% endif %} →
+          </a>
+        </dd>
+      </div>
+      {% endif %}
+
+      {% if page.code %}
+      <div>
+        <dt>Code</dt>
+        <dd><a href="{{ page.code }}" rel="noopener" target="_blank">Repository →</a></dd>
+      </div>
+      {% endif %}
+    </dl>
+
+    {% if page.image %}
+      <figure class="project-hero">
+        <img src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title }}" itemprop="image">
+        {% if page.image_caption %}<figcaption>{{ page.image_caption }}</figcaption>{% endif %}
+      </figure>
+    {% endif %}
+  </header>
+
+  <section class="project-body e-content" itemprop="text">
+    {{ content }}
+  </section>
+</article>

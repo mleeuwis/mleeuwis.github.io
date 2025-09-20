@@ -4,13 +4,22 @@ title: Projects
 permalink: /projects/
 ---
 
-{% assign items = site.projects | sort: 'date' | reverse %}
+{% assign items = site.projects | sort: "date" | reverse %}
+{% if items and items.size > 0 %}
 {% for p in items %}
 ### [{{ p.title }}]({{ p.url | relative_url }})
 
-{{ p.summary | default: p.excerpt | strip_html }}
+- **Updated:** {{ p.date | date: site.minima.date_format }}
+{% if p.status %}- **Status:** {{ p.status }}{% endif %}
+{% if p.collaborators %}- **Authors:** {{ p.collaborators | join: ", " }}{% endif %}
+{% if p.tags %}- **Tags:** {{ p.tags | array_to_sentence_string }}{% endif %}
+{% if p.link %}- **Link:** <a href="{{ p.link }}" target="_blank" rel="noopener">
+  {% if p.link contains 'doi.org' %}DOI{% else %}External{% endif %}</a>{% endif %}
 
-*Updated:* {{ p.date | date: site.minima.date_format }}
+{{ p.summary | default: p.excerpt | strip_html }}
 
 ---
 {% endfor %}
+{% else %}
+_No projects yet — add Markdown files to `/_projects/` with front matter._
+{% endif %}
