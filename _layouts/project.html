@@ -10,59 +10,46 @@ layout: default
       <p class="project-summary" itemprop="abstract">{{ page.summary }}</p>
     {% endif %}
 
-    <dl class="project-meta">
+    <div class="project-meta-inline">
       {% if page.date %}
-      <div>
-        <dt>Updated:</dt>
-        <dd><time class="dt-updated" datetime="{{ page.date | date_to_xmlschema }}" itemprop="dateModified">
+      <p><strong>Updated:</strong>
+        <time class="dt-updated" datetime="{{ page.date | date_to_xmlschema }}" itemprop="dateModified">
           {{ page.date | date: site.minima.date_format | default: page.date }}
-        </time></dd>
-      </div>
+        </time>
+      </p>
       {% endif %}
 
       {% if page.status %}
-      <div>
-        <dt>Status:</dt>
-        <dd itemprop="creativeWorkStatus">{{ page.status }}</dd>
-      </div>
+      <p><strong>Status:</strong> <span itemprop="creativeWorkStatus">{{ page.status }}</span></p>
       {% endif %}
 
       {% if page.collaborators %}
-        <div>
-            <dt>Collaborators:</dt>
-            <dd>{{ page.collaborators | join: ", " }}</dd>
-        </div>
-        {% endif %}
+      <p><strong>Collaborators:</strong> {{ page.collaborators | join: ", " }}</p>
+      {% endif %}
 
       {% if page.tags %}
-        <div>
-            <dt>Tags:</dt>
-            <dd>
-            {% for t in page.tags %}
-                <a href="{{ '/projects/' | relative_url }}?tag={{ t | uri_escape }}">{{ t }}</a>{% unless forloop.last %}, {% endunless %}
-            {% endfor %}
-            </dd>
-        </div>
+        {% assign tags_clean = page.tags | where_exp: "t", "t" %} {# remove blanks #}
+        {% if tags_clean.size > 0 %}
+        <p><strong>Tags:</strong>
+          {% for t in tags_clean %}
+            <a href="{{ '/projects/' | relative_url }}?tag={{ t | uri_escape }}">{{ t }}</a>{% unless forloop.last %}, {% endunless %}
+          {% endfor %}
+        </p>
         {% endif %}
+      {% endif %}
 
       {% if page.link %}
-      <div>
-        <dt>Link:</dt>
-        <dd>
-          <a href="{{ page.link }}" rel="noopener" target="_blank">
-            {% if page.link contains 'doi.org' %}DOI{% else %}External{% endif %} →
-          </a>
-        </dd>
-      </div>
+      <p><strong>Link:</strong>
+        <a href="{{ page.link }}" rel="noopener" target="_blank">
+          {% if page.link contains 'doi.org' %}DOI{% else %}External{% endif %} →
+        </a>
+      </p>
       {% endif %}
 
       {% if page.code %}
-      <div>
-        <dt>Code</dt>
-        <dd><a href="{{ page.code }}" rel="noopener" target="_blank">Repository →</a></dd>
-      </div>
+      <p><strong>Code:</strong> <a href="{{ page.code }}" rel="noopener" target="_blank">Repository →</a></p>
       {% endif %}
-    </dl>
+    </div>
 
     {% if page.image %}
       <figure class="project-hero">
