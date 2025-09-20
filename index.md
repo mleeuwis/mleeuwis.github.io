@@ -3,11 +3,6 @@ title: Home
 layout: home
 ---
 
-# Matto Leeuwis
-
-
-**Jump to:** [News]({{ "/news/" | relative_url }}) - [Projects]({{ "/projects/" | relative_url }}) - [Blog]({{ "/blog/" | relative_url }}) - [CV (PDF)]({{ "/assets/cv/M_CV.pdf" | relative_url }})
-
 ---
 
 ## News
@@ -26,7 +21,7 @@ layout: home
 _ No news yet. Add files in `_news/` using `YYYY-MM-DD-title.md` _
 {% endif %}
 
----
+<!-- ---
 
 ## Featured Projects
 {% assign projs = site.projects | sort: "date" | reverse %}
@@ -39,11 +34,11 @@ _ No news yet. Add files in `_news/` using `YYYY-MM-DD-title.md` _
 <p><a href="{{ "/projects/" | relative_url }}">All projects →</a></p>
 {% else %}
 _ No projects yet. Add files in `_projects/` with a `summary:` in the front matter. _
-{% endif %}
+{% endif %} -->
 
 ---
 
-## Recent Blog Posts
+<!-- ## Recent Blog Posts
 {% if site.posts and site.posts.size > 0 %}
 {% for post in site.posts limit:3 %}
 - **[{{ post.title }}]({{ post.url | relative_url }})**  
@@ -52,4 +47,4 @@ _ No projects yet. Add files in `_projects/` with a `summary:` in the front matt
 <p><a href="{{ "/blog/" | relative_url }}">More posts →</a></p>
 {% else %}
 _ No posts yet. Add Markdown files in `_posts/` named `YYYY-MM-DD-title.md`. _
-{% endif %}
+{% endif %} -->
