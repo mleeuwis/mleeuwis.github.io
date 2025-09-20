@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Contextual inference in associative learning"
-date: 2024-01-01
+date: 2024-08-02
 summary: Different mechanisms of contextual inference govern continuous and conditioned postural responses.
 tags: posture biomechanics
 status: "Published"

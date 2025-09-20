@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Modified wheelchair to facilitate pushing from the side"
-date: 2022-01-02
+date: 2024-09-12
 summary: This patented wheelchair modification allows the caregiver to push the wheelchair while walking beside the occupant without additional effort.
 tags: rehabilitation dynamics
 status: "Published"

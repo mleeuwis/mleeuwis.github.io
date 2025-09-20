@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Energetic optimality of standing and gait initiation"
-date: 2024-01-02
+date: 2024-01-01
 summary: Experimental and musculoskeletal modeling study on the energetic costs that drive standing and gait intitiation.
 tags: posture biomechanics OpenSim
 status: "Preprint"
