@@ -15,7 +15,7 @@ layout: home
 {% for item in items limit:5 %}
 - **{{ item.date | date: "%b %-d, %Y" }}** — [{{ item.title }}]({{ item.url | relative_url }})
   {% if item.summary %}
-  <br>{{ item.summary }}
+  <!-- <br>{{ item.summary }} -->
   {% else %}
   <!-- <br>{{ item.excerpt | strip_html | truncate: 160 }} -->
   {% endif %}
@@ -46,7 +46,7 @@ _ No projects yet. Add files in `_projects/` with a `summary:` in the front matt
 {% if site.posts and site.posts.size > 0 %}
 {% for post in site.posts limit:3 %}
 - **[{{ post.title }}]({{ post.url | relative_url }})**  
-  <small>{{ post.date | date: "%b %-d, %Y" }}</small> — {{ post.excerpt | strip_html | truncate: 140 }}
+  <small>{{ post.date | date: "%b %-d, %Y" }}</small> - {{ post.excerpt | strip_html | truncate: 140 }}
 {% endfor %}
 <p><a href="{{ "/blog/" | relative_url }}">More posts →</a></p>
 {% else %}
