@@ -5,6 +5,13 @@ layout: default
 <article class="project h-entry" itemscope itemtype="https://schema.org/CreativeWork">
   <header class="project-header">
 
+    <h1 class="project-title p-name" itemprop="name">{{ page.title }}</h1>
+
+    {% if page.summary %}
+      <p class="project-summary" itemprop="abstract">{{ page.summary }}</p>
+    {% endif %}
+
+    <!-- side by side grid with thumbnail and metadata -->
     <div class="project-row{% unless page.image %} no-thumb{% endunless %}">
       {% if page.image %}
         <div class="project-thumb">
@@ -14,12 +21,6 @@ layout: default
       {% endif %}
 
       <div class="project-text">
-        <h1 class="project-title p-name" itemprop="name">{{ page.title }}</h1>
-
-        {% if page.summary %}
-          <p class="project-summary" itemprop="abstract">{{ page.summary }}</p>
-        {% endif %}
-
         {% if page.date %}
         <p><strong>Updated:</strong>
           <time class="dt-updated" datetime="{{ page.date | date_to_xmlschema }}" itemprop="dateModified">
