@@ -27,11 +27,10 @@ layout: home
       that could be pushed from the side.
     </p>
   </div>
-
-  
-
 </div>
- 
+
+<br>
+
 ---
 
 # News
