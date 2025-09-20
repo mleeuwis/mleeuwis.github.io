@@ -5,6 +5,12 @@ layout: home
 
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 1.5rem;">
 
+  <div style="flex: 0 0 300px; text-align: center;">
+    <img src="{{ '/assets/images/home-image-robot.jpg' | relative_url }}"
+         alt="Balance experiment figure"
+         style="max-width: 100%; height: auto; border-radius: 8px;">
+  </div>
+  
   <div style="flex: 1 1 300px;">
     <p>
       I'm a PhD student in sensorimotor neuroscience and biorobotics at Erasmuc Medical Center Rotterdam.
@@ -12,11 +18,7 @@ layout: home
     </p>
   </div>
 
-  <div style="flex: 0 0 300px; text-align: center;">
-    <img src="{{ '/assets/images/home-image-robot.jpg' | relative_url }}"
-         alt="Balance experiment figure"
-         style="max-width: 100%; height: auto; border-radius: 8px;">
-  </div>
+  
 
 </div>
 ---
@@ -44,7 +46,7 @@ layout: home
 
 ---
 
-## Featured Projects
+# Featured Projects
 {% assign projs = site.projects | sort: "date" | reverse %}
 {% if projs and projs.size > 0 %}
 {% for p in projs limit:2 %}
