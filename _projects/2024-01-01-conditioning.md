@@ -3,7 +3,7 @@ layout: project
 title: "Conditioning"
 date: 2024-01-01
 summary: Different mechanisms of contextual inference govern continuous and conditioned postural responses.
-tags: standing, energy, posture, asymmetry, biomechanics
+tags: posture biomechanics
 status: "Published"
 collaborators:
    - "Matto Leeuwis"
