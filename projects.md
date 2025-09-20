@@ -40,6 +40,7 @@ permalink: /projects/
 _No projects yet — add Markdown files to `/_projects/` with front matter._
 {% endif %}
 
+{% comment %}
 <!-- {% if p.collaborators %}- **Authors:** {{ p.collaborators | join: ", " }}{% endif %}
 {% if p.tags %}- **Tags:** {{ p.tags | array_to_sentence_string }}{% endif %}
 {% if p.status %}- **Status:** {{ p.status }}{% endif %}
@@ -47,9 +48,4 @@ _No projects yet — add Markdown files to `/_projects/` with front matter._
 {% if p.link contains 'doi.org' %}DOI{% else %}External{% endif %}</a>{% endif %} -->
 
 <!-- {{ p.summary | default: p.excerpt | strip_html }} -->
-
----
-{% endfor %}
-{% else %}
-_No projects yet — add Markdown files to `/_projects/` with front matter._
-{% endif %}
+{% endcomment %}
