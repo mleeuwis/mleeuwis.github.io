@@ -7,6 +7,11 @@ theme: minima
 
 minima:
   date_format: "%Y-%m-%d"
+  social_links:
+    github: mleeuwis
+    linkedin: matto-leeuwis
+    orcid: 0009-0009-8728-0589
+    scholar: https://scholar.google.com/citations?user=0009-0009-8728-0589
 
 plugins:
   - jekyll-feed
