@@ -10,8 +10,8 @@ collaborators:
    - "Nikki van Aerts"
    - "Ajay Seth"
    - "Patrick Forbes"
-image: /assets/projects/robot-thumb.jpg   # path to the thumbnail
-image_alt: Conditioning schematic                # optional
+image: /assets/projects/opensim-standing-thumb.jpg   # path to the thumbnail
+image_alt: Musculoskeletal model                # optional
 \# code: https://github.com/USER/REPO            # (add if/when public)
 link: https://www.biorxiv.org/content/10.1101/2025.09.15.676217v1
 ---

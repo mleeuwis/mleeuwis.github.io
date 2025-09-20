@@ -11,7 +11,7 @@ collaborators:
    - "Yoshua White"
    - "Brandon Rasman"
    - "Patrick Forbes"
-image: /assets/projects/robot-thumb.jpg   # path to the thumbnail
+image: /assets/projects/robot-computer-thumb.jpg   # path to the thumbnail
 image_alt: Conditioning schematic                # optional
 \# code: https://github.com/USER/REPO            # (add if/when public)
 link: https://doi.org/10.1073/pnas.2404909121 
