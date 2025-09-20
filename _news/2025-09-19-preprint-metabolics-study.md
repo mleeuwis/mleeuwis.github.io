@@ -4,6 +4,7 @@ title: "New Preprint: The energetic cost of human standing balance and gait init
 date: 2025-09-19
 summary: 
 tags: [preprint, posture]
+link: https://www.biorxiv.org/content/10.1101/2025.09.15.676217v1
 ---
 We have uploaded a preprint to bioRxiv regarding our study, which investigates whether humans optimize their energy expenditure during standing and gait initiation.
 

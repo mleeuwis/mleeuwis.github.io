@@ -10,18 +10,23 @@ I study human movement through the lens of robotics, biomechanics, and sensorimo
 ## News
 {% assign items = site.news | sort: "date" | reverse %}
 {% if items and items.size > 0 %}
+<ul class="news-list">
 {% for item in items limit:5 %}
-- **{{ item.date | date: "%b %-d, %Y" }}** — [{{ item.title }}]({{ item.url | relative_url }})
-  {% if item.summary %}
-  <!-- <br>{{ item.summary }} -->
-  {% else %}
-  <!-- <br>{{ item.excerpt | strip_html | truncate: 160 }} -->
-  {% endif %}
+  <li>
+    <strong>{{ item.date | date: "%Y-%m-%d" }}</strong> —
+    {% if item.link %}
+      <a href="{{ item.link }}" target="_blank">{{ item.title }}</a>
+    {% else %}
+      {{ item.title }}
+    {% endif %}
+  </li>
 {% endfor %}
+</ul>
 <p><a href="{{ "/news/" | relative_url }}">See all news →</a></p>
 {% else %}
-_ No news yet. Add files in `_news/` using `YYYY-MM-DD-title.md` _
+<p><em>No news yet. Add files in `_news/` using `YYYY-MM-DD-title.md`</em></p>
 {% endif %}
+
 
 <!-- ---
 
