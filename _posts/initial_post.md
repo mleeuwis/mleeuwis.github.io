@@ -1,5 +1,5 @@
 ---
-title: Initial post title
+title: "Initial post title" 
 date: 2025-01-31
 categories: [test, temp]
 tags: [temp_tag]
@@ -17,3 +17,4 @@ code block?
 
 ![photo?](https://avatars.githubusercontent.com/u/64538595?v=4)
 
+[Link to another page](./_posts/initial_post.html).
