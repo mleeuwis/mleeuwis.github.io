@@ -2,7 +2,10 @@
 layout: page
 title: Projects
 permalink: /projects/
+description: "Overview of research projects by Matto Leeuwis on robotics, balance, energy expenditure, and gait initiation."
 ---
+
+My research is on human movement from a robotics and biomechanics perspective. On this page you can find various projects that I work or worked on. 
 
 {% assign items = site.projects | sort: "date" | reverse %}
 {% if items and items.size > 0 %}

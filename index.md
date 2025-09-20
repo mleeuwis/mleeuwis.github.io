@@ -13,8 +13,18 @@ layout: home
   
   <div style="flex: 1 1 300px;">
     <p>
-      I'm a PhD student in sensorimotor neuroscience and biorobotics at Erasmuc Medical Center Rotterdam.
-      My work focuses on human movement through the lens of robotics, biomechanics, and neuroscience.
+      I'm a PhD student at the 
+      <a href="https://neuro.nl/research/forbes" target="_blank" rel="noopener">
+      Sensorimotor Neuroscience and Biorobotics Lab
+      </a> 
+      in Erasmuc MC (Rotterdam).
+      My work focuses on human movement through the lens of 
+      <a href="{{ '/projects/conditioning/' | relative_url }}">robotics</a>, 
+      <a href="{{ '/projects/energy-expenditure-standing-gait/' | relative_url }}">biomechanics</a>, 
+      and neuroscience.
+      Before doing my PhD I studied Mechanical Engineering at TU Delft, where we designed a 
+      <a href="{{ '/projects/wheelchair-ziggy/' | relative_url }}">wheelchair</a>
+      that could be pushed from the side.
     </p>
   </div>
 

@@ -1,6 +1,6 @@
 title: "Matto Leeuwis"
 author: "Matto Leeuwis"
-description: "Personal website"
+description: "PhD researcher studying human movement through biomechanics, robotics, and motor learning methods"
 baseurl: "" 
 url: "https://mleeuwis.github.io"
 theme: minima
@@ -10,6 +10,10 @@ minima:
   social_links:
     github: mleeuwis
     linkedin: matto-leeuwis
+
+github_username: mleeuwis
+linkedin_username: matto-leeuwis
+orcid: 0009-0009-8728-0589
 
 plugins:
   - jekyll-feed
