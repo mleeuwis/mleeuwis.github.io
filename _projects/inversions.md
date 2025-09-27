@@ -12,8 +12,8 @@ collaborators:
    - "Jean-Sébastien Blouin"
    - "Chris J. Dakin"
    - "Patrick Forbes"
-image: /assets/projects/inversions-thumb.jpg   # path to the thumbnail
-image_alt: Conditioning schematic                # optional
+image: /assets/projects/inversions-thumb.svg   # path to the thumbnail
+image_alt: Inversions schematic                # optional
 \# code: https://github.com/USER/REPO            # (add if/when public)
 link: 
 ---
