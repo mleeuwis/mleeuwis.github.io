@@ -2,7 +2,7 @@
 layout: project
 title: "Reversing postural control"
 date: 2025-01-01
-summary: Reversing postural control.
+summary: Can humans relearn (and unlearn) how to stand when we completely reverse their control over balancing movement?
 tags: posture biomechanics robotics
 status: "Ongoing"
 collaborators:
