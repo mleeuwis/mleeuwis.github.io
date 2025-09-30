@@ -23,6 +23,7 @@ plugins:
 
 # Navigation: list the pages that should appear in the header
 header_pages:
+  - about.md
   - projects.md
   - news.md
 #  - blog.md
