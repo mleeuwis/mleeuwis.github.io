@@ -4,25 +4,24 @@ title: About
 permalink: /about/
 ---
 
-# About Me
+# Profiles & Links
 
-I am a PhD candidate in **biorobotics and biomechanics** at [Department, University].  
-My work focuses on **motor control, balance adaptation, and human–robot interaction**.
+- [Google Scholar](https://scholar.google.com/citations?user=0009-0009-8728-0589)  
+- [ORCID](https://orcid.org/0009-0009-8728-0589)  
+- [ResearchGate](https://www.researchgate.net/profile/Matto-Leeuwis)  
+- [GitHub](https://github.com/mleeuwis)  
+- [LinkedIn](https://www.linkedin.com/in/matto-leeuwis/)  
+- [Department website](https://neuro.nl/research/forbes)
+- [TU Delft staff page](https://www.tudelft.nl/staff/m.leeuwis/)
+- [Erasmus MC staff page](https://neuro.nl/person/Matto-Leeuwis)
 
-## Research Interests
-- Human movement control and learning
-- Postural balance and sensory integration
-- Musculoskeletal modeling and energetics
-- Robotics for motor neuroscience
+---
 
-## Find Me Online
-- [Google Scholar](https://scholar.google.com/citations?user=XXXX)
-- [ORCID](https://orcid.org/0000-0000-0000-0000)
-- [ResearchDirect](#)
-- [GitHub](https://github.com/username)
-- [LinkedIn](https://linkedin.com/in/username)
-- [Department Website](#)
+# Contact
 
-## Contact
-**Email:** m.lastname@tudelft.nl  
-**Office:** Building XX, Room XXX, Delft University of Technology
+- **Email:** m.leeuwis (at) erasmusmc (dot) nl 
+- **Office:** Erasmus MC, Rotterdam - Ee-1459 
+- **CV:** [View or download →](/cv/)
+
+---
+
