@@ -24,7 +24,10 @@ In this work we evaluate to what extent humans can adopt non-biomimetic control 
 ![Overview of inversion study](/assets/projects/inversions-overview.svg)
 
 # Video
-![Video of reversed control](/assets/projects/video-robot-reversed.mp4)
+<video controls width="640" preload="metadata">
+  <source src="{{ '/assets/projects/video-robot-reversed.mp4' | relative_url }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 # Results
 The results are not posted here until data collection is complete. This is to prevent potential participants from being informed about the hypotheses of the study. If you want to participate, or want to know more, reach out directly. 
