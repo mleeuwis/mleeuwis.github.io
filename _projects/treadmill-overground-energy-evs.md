@@ -10,7 +10,7 @@ collaborators:
    - "Matto Leeuwis"
    - "Eline van der Kruk"
    - "Patrick Forbes"
-image: /assets/projects/treadmill-overground-thumb.jpg   # path to the thumbnail
+image: /assets/projects/treadmill-overground-thumb.svg   # path to the thumbnail
 image_alt: Picture of overground and treadmill walking   # optional
 \# code: https://github.com/USER/REPO            # (add if/when public)
 link: https://resolver.tudelft.nl/uuid:eae9c130-cec2-4908-a925-16c61f75a5f3
