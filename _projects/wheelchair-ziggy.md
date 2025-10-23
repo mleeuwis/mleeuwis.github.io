@@ -20,7 +20,15 @@ link: https://doi.org/10.1371/journal.pone.0307759
 ---
 Traditional wheelchairs are pushed from behind the occupant, which hinders eye contact and communication. It was proposed that the wheelchair be pushed from the side using a push bar to place the caregiver beside the occupant. However, this method requires the caregiver to exert continuous effort to maintain a straight trajectory because the force at the lateral push location generates a moment. This study explores simple modifications to the front castor wheel of the wheelchair that allow pushing it from the side without additional effort. We used a three-dimensional dynamic model of the castor wheel to predict the effects of altering its dimensions and rake, cant, and bank angle and present a simplified steady-state solution. Experimental results support the model's predictions, and a proof-of-concept experiment with a wheelchair showed that it is possible to push a wheelchair from the side without increasing forces or moments. The results also confirmed that the lateral ground reaction force generated on the castor wheel is proportional to the normal force and the cant angle, which can counter the moment caused by the lateral push location. The implications of this model extend beyond wheelchair design and can be applied to other applications that use castor wheels, such as robotics, trolleys, and walkers.
 
-![Video of wheelchair in use](/assets/projects/ziggy-S3-video.mp4)
+<figure>
+  <video controls preload="metadata" playsinline
+         src="{{ '/assets/projects/ziggy-S3-video.mp4' | relative_url }}"
+         type="video/mp4" style="max-width:100%; height:auto;">
+    Your browser can’t play this video.
+    <a href="{{ '/assets/projects/ziggy-S3-video.mp4' | relative_url }}">Download MP4</a>.
+  </video>
+  <figcaption>Wheelchair being pushed from the side</figcaption>
+</figure>
 
 ## Thesis
 During my MSc thesis I developed a multibody dynamic model of the wheelchair to simulate how our modification of the castor wheel affected the system. We found that the cant (i.e., slant or tilt) of the swivel axis proportionally increased the lateral force it generates. This lateral force turns the wheelchair to one side. By letting the caregiver push using a lateral extending bar the wheelchair moves in a straight line. The thesis contains a simulation of a whole wheelchair to estimate the curvature of trajectories given the parameters of the wheelchair and castor wheel. The publication simplified the representation by validating the dynamics of the castor wheel itself.
