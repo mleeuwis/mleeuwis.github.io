@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Age-dependent vestibular contributions to energy expenditure in treadmill and overground walking"
-date: 2025-09-19
+date: 2025-10-23
 summary: Our reliance on vestibular input changes as we age; could this explain energetic differences across age in the metabolic cost of walking on a treadmill as compared to overground?
 tags: posture biomechanics OpenSim
 status: ""
