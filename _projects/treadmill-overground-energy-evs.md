@@ -24,8 +24,25 @@ Most experiments on the energetic cost of walking use treadmills, as these allow
 
 In this project, we assess whether this cost difference between ages may be caused by changes in reliance on vestibular input when walking on a treadmill. We tested two groups: a young group (n=10) and an old group (n=10), both walking outdoors and indoors on a treadmill. We used a metabolic analyzer to measure participants' energy expenditure from their exhaled oxygen and CO2 contents, and measured their movement using inertial measurement units. To test the role of the vestibular system, we used electrical vestibular stimulation. This type of stimulation uses electrodes behind the ears to induce a sensation of self-movement, as if you are standing on a moving ship. By combining this stimulation with the measured movement of the participant, we could quantify how reliant they were on vestibular signals.
 
-![Video of treadmill walking](/assets/projects/treadmill-evs-walking.mp4)
-![Video of overground walking](/assets/projects/overground-evs-walking.mp4)
+<figure>
+  <video controls preload="metadata" playsinline
+         src="{{ '/assets/projects/treadmill-evs-walking.mp4' | relative_url }}"
+         type="video/mp4" style="max-width:100%; height:auto;">
+    Your browser can’t play this video. 
+    <a href="{{ '/assets/projects/treadmill-evs-walking.mp4' | relative_url }}">Download MP4</a>.
+  </video>
+  <figcaption>Treadmill walking with EVS</figcaption>
+</figure>
+
+<figure>
+  <video controls preload="metadata" playsinline
+         src="{{ '/assets/projects/overground-evs-walking.mp4' | relative_url }}"
+         type="video/mp4" style="max-width:100%; height:auto;">
+    Your browser can’t play this video. 
+    <a href="{{ '/assets/projects/overground-evs-walking.mp4' | relative_url }}">Download MP4</a>.
+  </video>
+  <figcaption>Overground walking with EVS</figcaption>
+</figure>
 
 Overall, we found that walking on a treadmill costs more energy than walking outdoors at the same speed. However, there was no difference in energy expenditure with age. The reliance on vestibular input was also similar across age, suggesting that any deterioration of the vestibular system did not affect overall movement outcomes.
 
