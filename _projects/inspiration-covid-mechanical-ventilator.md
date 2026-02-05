@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "Project Inspiration: low-cost mechanical ventilator inspired by the East-Radcliffe (1960s)"
+title: "Project Inspiration: low-cost mechanical ventilator"
 date: 2021-04-16
 summary: Testing and validation of a rapidly manufacturable, low-cost ventilator design based on the East-Radcliffe ventilator from the Boerhaave Museum in Leiden.
 tags: medical devices, mechanical ventilator, validation
