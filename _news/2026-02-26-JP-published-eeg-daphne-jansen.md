@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "New Publication: Cortical responses to balance perturbations persist without active postural control"
+title: "New Publication: Cortical responses to balance perturbations persist without active postural control (The Journal of Physiology)"
 date: 2026-02-26
 summary: 
 tags: [preprint, posture, eeg]
