@@ -18,10 +18,10 @@ layout: home
       Sensorimotor Neuroscience and Biorobotics Lab
       </a> 
       in Erasmuc MC (Rotterdam).
-      My work focuses on human movement through the lens of 
+      My work focuses on human movement and learning through the lens of 
       <a href="{{ '/projects/conditioning/' | relative_url }}">robotics</a>, 
       <a href="{{ '/projects/energy-expenditure-standing-gait/' | relative_url }}">biomechanics</a>, 
-      and neuroscience.
+      and <a href="{{ '/projects/inversions/' | relative_url }}">neuroscience</a>.
       Before doing my PhD I studied Mechanical Engineering at TU Delft, where we designed a 
       <a href="{{ '/projects/wheelchair-ziggy/' | relative_url }}">wheelchair</a>
       that could be pushed from the side.
