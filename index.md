@@ -1,5 +1,5 @@
 ---
-title: Matto Leeuwis | Motor Control and Biorobotics Research
+title: Motor Control and Biorobotics Research
 layout: home
 ---
 
