@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Matto Leeuwis | Motor Control and Biorobotics Research
 layout: home
 ---
 
@@ -59,7 +59,7 @@ layout: home
 # Featured Projects
 {% assign projs = site.projects | sort: "date" | reverse %}
 {% if projs and projs.size > 0 %}
-{% for p in projs limit:2 %}
+{% for p in projs limit:3 %}
 ### [{{ p.title }}]({{ p.url | relative_url }})
 {{ p.summary | default: p.excerpt | strip_html | truncate: 180 }}
 

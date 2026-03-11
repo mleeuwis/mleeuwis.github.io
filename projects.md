@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Projects
+title: Research Projects
 permalink: /projects/
 description: "Overview of research projects by Matto Leeuwis on robotics, balance, energy expenditure, and gait initiation."
 ---
