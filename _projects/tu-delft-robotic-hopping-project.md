@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Robohopper"
-date: "2017"
+date: "2017-01-01"
 summary: A hopping robot built developed as the first-year mechanical engineering BSc capstone project at TU Delft.
 tags: [robotics, mechanical engineering, education]
 status: "Complete"
