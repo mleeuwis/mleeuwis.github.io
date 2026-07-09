@@ -15,7 +15,7 @@ Final project of the first year of the Mechanical Engineering BSc at TU Delft. T
 
 <figure>
   <video controls preload="metadata" playsinline
-         src="{{ '/assets/projects/robohopper-demonstratio-cropped.mp4' | relative_url }}"
+         src="{{ '/assets/projects/robohopper-demonstration-cropped.mp4' | relative_url }}"
          type="video/mp4" style="max-width:100%; height:auto;">
     Your browser can't play this video.
     <a href="{{ '/assets/projects/robohopper-demonstration-cropped.mp4' | relative_url }}">Download MP4</a>.
