@@ -1,5 +1,5 @@
 ---
-title: Motor Control and Biorobotics Research
+title: Home
 layout: home
 ---
 
