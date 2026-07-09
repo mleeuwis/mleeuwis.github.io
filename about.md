@@ -5,7 +5,6 @@ permalink: /about/
 ---
 
 # Contact
-I work in the research building of Erasmus MC (Ee) on most days, and prefer in-person meetings on Wednesdays where possible. I read all email, but only reply when a response is useful. 
 
 - **Email:** m.leeuwis (at) erasmusmc (dot) nl 
 - **Office:** Erasmus MC, Rotterdam - Ee-1459 
