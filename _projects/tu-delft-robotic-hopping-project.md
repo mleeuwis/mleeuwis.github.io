@@ -10,7 +10,6 @@ collaborators:
 image: /assets/projects/robohopper-thumb.png 
 image_alt: Robohopper jumping robot
 # code: 
-link:
 ---
 Final project of the first year of the Mechanical Engineering BSc at TU Delft. The goal was to build a one-legged jumping robot that could race to the finish, inspired by [Raibert's hopping robots from the 1980s](https://www.youtube.com/watch?v=Bd5iEke6UlE).
 
