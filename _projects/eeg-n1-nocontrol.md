@@ -3,7 +3,7 @@ layout: project
 title: "Cortical responses to balance perturbations persist without active postural control"
 date: 2026-02-26
 summary: Do cortical balance responses, such as the Balance N1, really depend on balance?
-tags: posture, eeg, brain, Balance N1
+tags: [posture, eeg, brain, Balance N1]
 status: "Published"
 collaborators:
    - "Daphne Jansen"

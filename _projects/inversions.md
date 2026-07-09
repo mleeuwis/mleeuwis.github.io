@@ -3,7 +3,7 @@ layout: project
 title: "Learning reversed postural control"
 date: 2026-01-01
 summary: Can humans relearn (and unlearn) how to stand when we completely reverse their control over balancing movement?
-tags: posture, biomechanics, robotics
+tags: [posture, biomechanics, robotics, learning]
 status: "Ongoing"
 collaborators:
    - "Matto Leeuwis"
