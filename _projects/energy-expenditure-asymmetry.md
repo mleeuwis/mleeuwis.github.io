@@ -19,9 +19,9 @@ link: https://doi.org/10.1152/japplphysiol.00294.2026
 
 We consider the relaxed stance of Michelangelo's David the pinnacle of natural posture, at least from an aesthetic perspective. When we stand for long periods, such as while waiting for the bus, we often follow our Renaissance counterpart and shift our weight to lean mostly on one leg. In this experiment, we explored whether a lower metabolic cost explains this preference for asymmetric postures. 
 
-![Overview of asymmetry study](/assets/projects/asymmetry-overview.jpg)
-
 Contrary to our hypothesis, participants expended more energy when standing in asymmetric postures and when shifting their weight periodically during symmetric standing, suggesting that these common behaviors come at a small energetic expense.
+
+![Overview of asymmetry study](/assets/projects/asymmetry-overview.jpg)
 
 The inspiration for this study came from the Umberger 2003 muscle metabolic model. Activation maintenance costs contribute to the vast majority of energy expended during standing, and this cost scales with a power of 0.6 (see <a href="{{ '/projects/energy-expenditure-standing-gait/' | relative_url }}">here</a>). When supporting our weight on one leg, we are able to unload the other. Effectively, this may allow us to double muscle activation on one side and greatly reduce it in the other, which would result in a lower overall cost.
 
