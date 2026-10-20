@@ -13,7 +13,8 @@ layout: home
   
   <div style="flex: 1 1 300px;">
     <p>
-      I'm a PhD student at the Sensorimotor Neuroscience and Biorobotics Lab in Erasmus MC (Rotterdam) and a Visiting Researcher at the University of British Columbia (Vancouver).
+      I'm a PhD student working with Patrick Forbes at the *Sensorimotor Neuroscience and Biorobotics Lab* in Erasmus MC (Rotterdam), and a Visiting Researcher in Jean-Sebastien Blouin's *Sensorimotor Physiology lab* at the University of British Columbia (Vancouver).
+
       My work focuses on human movement and learning through the lens of 
       <a href="{{ '/projects/conditioning/' | relative_url }}">robotics</a>, 
       <a href="{{ '/projects/energy-expenditure-standing-gait/' | relative_url }}">biomechanics</a>, 
@@ -21,6 +22,8 @@ layout: home
       Before doing my PhD I studied Mechanical Engineering at TU Delft, where we designed a 
       <a href="{{ '/projects/wheelchair-ziggy/' | relative_url }}">wheelchair</a>
       that could be pushed from the side.
+
+      To find out more about what I'm working on, check out the <a href="{{ '/projects/' | relative_url }}">Projects page</a>.
     </p>
   </div>
 </div>
