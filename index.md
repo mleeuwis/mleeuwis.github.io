@@ -13,11 +13,7 @@ layout: home
   
   <div style="flex: 1 1 300px;">
     <p>
-      I'm a PhD student at the 
-      <a href="https://neuro.nl/research/forbes" target="_blank" rel="noopener">
-      Sensorimotor Neuroscience and Biorobotics Lab
-      </a> 
-      in Erasmuc MC (Rotterdam).
+      I'm a PhD student at the Sensorimotor Neuroscience and Biorobotics Lab in Erasmus MC (Rotterdam) and a Visiting Researcher at the University of British Columbia (Vancouver).
       My work focuses on human movement and learning through the lens of 
       <a href="{{ '/projects/conditioning/' | relative_url }}">robotics</a>, 
       <a href="{{ '/projects/energy-expenditure-standing-gait/' | relative_url }}">biomechanics</a>, 
