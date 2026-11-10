@@ -13,7 +13,7 @@ layout: home
   
   <div style="flex: 1 1 300px;">
     <p>
-      I'm a PhD student working with Patrick Forbes at the <strong>Sensorimotor Neuroscience and Biorobotics Lab</strong> in Erasmus MC (Rotterdam), and a Visiting Researcher in Jean-Sebastien Blouin's <strong>Sensorimotor Physiology lab</strong> at the University of British Columbia (Vancouver).
+      I'm a PhD student working with Patrick Forbes at the Sensorimotor Neuroscience and Biorobotics Lab in Erasmus MC (Rotterdam), and a Visiting Researcher in Jean-Sebastien Blouin's Sensorimotor Physiology lab at the University of British Columbia (Vancouver).
     </p>
     <p>
       My work focuses on human movement and learning through the lens of 
